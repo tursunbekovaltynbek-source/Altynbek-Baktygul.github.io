@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f8f3ed">
+<title>阿尔滕别克 & 巴克特古丽 — 婚礼邀请函</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#3e3832;--muted:#81766d;--gold:#a8845c;--paper:#fbf8f3;--line:#e8ded2;--rose:#ead8d0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Serif SC",serif;line-height:1.85}
+button,input,textarea{font:inherit}.hero{min-height:92vh;display:grid;place-items:center;text-align:center;padding:72px 22px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 35%,#fffdf9 0,#f8f0e8 55%,#eee0d4 100%)}
+.hero:before,.hero:after{content:"";position:absolute;width:300px;height:460px;border:1px solid #c5a98566;border-radius:50%;transform:rotate(32deg);pointer-events:none}.hero:before{left:-190px;top:-100px}.hero:after{right:-190px;bottom:-120px;transform:rotate(-32deg)}
+.hero-inner{max-width:720px;position:relative;z-index:1}.eyebrow{letter-spacing:.28em;color:var(--gold);font-size:12px}.ornament{color:var(--gold);font-size:24px;margin:22px 0}.names{font-family:"Playfair Display","Noto Serif SC",serif;font-size:clamp(38px,8vw,76px);font-weight:500;line-height:1.25;margin:12px 0}.amp{font-style:italic;color:var(--gold);font-size:.7em}.date{font-family:"Playfair Display",serif;letter-spacing:.22em;font-size:20px;margin:24px 0 6px}.intro{max-width:590px;margin:20px auto;color:#655a51}.seal{display:inline-grid;place-items:center;width:64px;height:64px;border:1px solid var(--gold);border-radius:50%;color:var(--gold);font-size:24px;margin-top:24px}
+section{padding:76px 22px}.wrap{max-width:850px;margin:auto}.section-title{text-align:center;font-size:26px;font-weight:500;letter-spacing:.12em;margin:0 0 12px}.sub{text-align:center;color:var(--muted);font-size:13px;letter-spacing:.16em;margin:0 0 36px}.welcome{text-align:center;background:#fffdfa}.welcome p{max-width:650px;margin:12px auto;color:#655a51}.photo-pair{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:38px auto 0;max-width:720px}.photo{min-height:280px;border-radius:180px 180px 8px 8px;background:linear-gradient(145deg,#e6d2c5,#f5e9de 48%,#cbb09b);display:grid;place-items:center;color:#806e5c;text-align:center;padding:24px;overflow:hidden}.photo:nth-child(2){border-radius:8px 8px 180px 180px;background:linear-gradient(145deg,#d8c8b5,#f4e7d9 48%,#b9a18d)}.photo span{font-size:13px;letter-spacing:.1em;background:#fff9;padding:8px 14px;border-radius:30px}
+.details{background:#f4ece4}.detail-card{max-width:650px;margin:auto;text-align:center;padding:34px 22px;border:1px solid #d8c5b2;background:#fbf8f3}.detail-card .big-date{font-family:"Playfair Display",serif;font-size:32px;color:var(--gold);margin:10px 0}.detail-card p{margin:5px}.countdown{display:flex;justify-content:center;gap:24px;margin:30px 0 8px}.countdown div{min-width:58px}.countdown strong{display:block;font-family:"Playfair Display",serif;font-size:28px;font-weight:500}.countdown small{font-size:12px;color:var(--muted)}.schedule{max-width:540px;margin:36px auto 0;text-align:left}.event{display:grid;grid-template-columns:86px 1fr;gap:20px;padding:15px 0;border-bottom:1px solid var(--line)}.event time{color:var(--gold);font-family:"Playfair Display",serif;font-size:19px}.venue{margin-top:42px}.maplink{display:inline-block;margin-top:18px;padding:10px 24px;border:1px solid var(--gold);color:var(--ink);text-decoration:none;transition:.2s}.maplink:hover{background:var(--gold);color:white}
+.notes{background:#fffdfa}.note-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:30px}.note{padding:26px;border:1px solid var(--line);text-align:center}.note-num{font-family:"Playfair Display",serif;color:var(--gold);font-size:30px}.note h3{font-weight:500;margin:4px 0 8px}.note p{font-size:14px;color:#6e6258;margin:0}.dress{background:#f4ece4;text-align:center}.swatches{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:28px 0}.swatch{width:72px}.swatch i{display:block;width:56px;height:56px;border-radius:50%;margin:0 auto 8px;border:1px solid #00000012}.swatch span{font-size:11px;color:var(--muted)}.rsvp{background:#fffdfa}.form{max-width:540px;margin:auto}.form label{display:block;margin:18px 0 6px;font-size:14px}.form input[type=text],.form textarea{width:100%;border:1px solid #d9cabc;background:#fffdf9;padding:12px 14px;border-radius:2px;color:var(--ink)}.choices{display:grid;gap:10px;margin:20px 0}.choices label{display:flex;align-items:center;gap:10px;margin:0}.submit{display:block;width:100%;padding:13px;background:var(--gold);border:0;color:#fff;letter-spacing:.1em;cursor:pointer}.hint{font-size:12px;color:var(--muted);text-align:center;margin-top:12px}.footer{text-align:center;padding:50px 20px;background:#eee2d7}.footer .names{font-size:34px}.footer p{color:var(--muted);font-size:13px}
+@media(max-width:560px){.hero{min-height:85vh}.photo-pair{gap:10px}.photo{min-height:210px}.note-grid{grid-template-columns:1fr}.countdown{gap:12px}.countdown div{min-width:50px}.event{grid-template-columns:72px 1fr}.section-title{font-size:22px}section{padding:58px 18px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">诚挚邀请 · 婚礼喜帖</div>
+    <div class="ornament">✧ ❦ ✧</div>
+    <div style="font-size:14px;letter-spacing:.2em">奉主之名，愿爱与祝福常伴</div>
+    <h1 class="names">阿尔滕别克 <span class="amp">&</span><br>巴克特古丽</h1>
+    <div class="date">15 · 11 · 2026</div>
+    <p class="intro">我们诚挚邀请您与我们一同分享人生中最幸福的时刻，见证我们的结合，并为我们的新生活送上美好的祝福。</p>
+    <div class="seal">囍</div>
+  </div>
+</header>
+<section class="welcome">
+  <div class="wrap">
+    <h2 class="section-title">亲爱的亲朋好友</h2><p class="sub">与我们共赴幸福之约</p>
+    <p>尊敬的长辈、亲爱的亲友与挚友：</p>
+    <p>我们怀着喜悦的心情，诚邀您出席我们的婚礼。您的到来与祝福，将为这个特别的日子增添无限温暖与意义。</p>
+    <div class="photo-pair">
+      <div class="photo"><span>新人照片 · 可替换</span></div>
+      <div class="photo"><span>幸福时刻 · 可替换</span></div>
+    </div>
+  </div>
+</section>
+<section class="details">
+  <div class="wrap">
+    <h2 class="section-title">婚礼详情</h2><p class="sub">请记下这个特别的日子</p>
+    <div class="detail-card">
+      <div class="eyebrow">SAVE THE DATE</div>
+      <div class="big-date">2026年11月15日</div>
+      <p>星期日 · 下午 15:00</p>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">—</strong><small>天</small></div>
+        <div><strong id="hours">—</strong><small>小时</small></div>
+        <div><strong id="minutes">—</strong><small>分钟</small></div>
+        <div><strong id="seconds">—</strong><small>秒</small></div>
+      </div>
+      <div class="schedule">
+        <div class="event"><time>15:00</time><div>宾客签到与迎接</div></div>
+        <div class="event"><time>16:00</time><div>婚礼正式开始</div></div>
+        <div class="event"><time>17:00</time><div>婚宴与祝酒</div></div>
+        <div class="event"><time>23:00</time><div>婚礼庆典结束</div></div>
+      </div>
+      <div class="venue">
+        <div class="eyebrow">婚礼举办地点</div>
+        <h3 style="font-size:23px;font-weight:500;margin:8px 0">「阿亚尔」餐厅（Ресторан «Аяр»）</h3>
+        <p>吉尔吉斯斯坦，比什凯克市</p><p>楚河大街 1141 号，Novopavlovka</p>
+        <a class="maplink" href="https://2gis.kg/" target="_blank" rel="noopener">在地图中查看 ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="notes">
+  <div class="wrap">
+    <h2 class="section-title">温馨提示</h2><p class="sub">让我们一起留下美好回忆</p>
+    <div class="note-grid">
+      <div class="note"><div class="note-num">01</div><h3>关于鲜花</h3><p>如果您愿意，不妨用写有真挚祝福的贺卡代替鲜花。您的心意将成为我们珍藏一生的纪念。</p></div>
+      <div class="note"><div class="note-num">02</div><h3>关于礼物</h3><p>如需赠送礼物，礼金信封会是新婚家庭贴心而实用的祝福。感谢您的理解与心意。</p></div>
+    </div>
+  </div>
+</section>
+<section class="dress">
+  <div class="wrap">
+    <h2 class="section-title">着装建议</h2><p class="sub">Dress Code · 婚礼色系</p>
+    <p>欢迎您选择以下色系的服装，与我们共同营造温柔、优雅的婚礼氛围。最重要的是您的笑容与祝福！</p>
+    <div class="swatches">
+      <div class="swatch"><i style="background:#ead9c6"></i><span>香槟色</span></div>
+      <div class="swatch"><i style="background:#d9b8b2"></i><span>粉雾色</span></div>
+      <div class="swatch"><i style="background:#b5bda1"></i><span>抹茶绿</span></div>
+      <div class="swatch"><i style="background:#4b382f"></i><span>深棕色</span></div>
+      <div class="swatch"><i style="background:#c4a15f"></i><span>金色</span></div>
+      <div class="swatch"><i style="background:#b7d5e8"></i><span>浅蓝色</span></div>
+    </div>
+    <p>期待与您分享我们的喜悦，感谢您为我们送上美好的祝福！</p>
+    <p style="margin-top:20px;color:var(--muted)">婚礼主办方：图尔сун别克 与 赛纳普</p>
+  </div>
+</section>
+<section class="rsvp">
+  <div class="wrap">
+    <h2 class="section-title">出席确认</h2><p class="sub">请告知我们您是否能够出席</p>
+    <form class="form" id="rsvpForm">
+      <label for="guest">您的姓名</label><input id="guest" name="guest" type="text" placeholder="例如：阿塞尔·马姆别托娃" required>
+      <label for="companion">如携伴出席，请填写双方姓名</label><input id="companion" name="companion" type="text" placeholder="同行人姓名（如适用）">
+      <div class="choices">
+        <label><input type="radio" name="attendance" value="confirmed" required> 我将出席</label>
+        <label><input type="radio" name="attendance" value="plus-one"> 我将携伴出席</label>
+        <label><input type="radio" name="attendance" value="declined"> 很遗憾，我无法出席</label>
+      </div>
+      <button class="submit" type="submit">确认并生成回复</button>
+      <p class="hint">提示：此页面目前不会自动发送回复。提交后可复制回复内容并通过 WhatsApp 发给新人。</p>
+    </form>
+  </div>
+</section>
+<footer class="footer">
+  <div class="ornament">✧ ❦ ✧</div>
+  <div class="names">阿尔滕别克 <span class="amp">&</span> 巴克特古丽</div>
+  <div class="date">15 · 11 · 2026</div>
+  <p>期待与您相见，共同庆祝爱的开始。</p>
+</footer>
+<script>
+const wedding = new Date('2026-11-15T15:00:00+06:00').getTime();
+function tick(){let d=wedding-Date.now();if(d<0)d=0;document.getElementById('days').textContent=Math.floor(d/86400000);document.getElementById('hours').textContent=Math.floor(d%86400000/3600000);document.getElementById('minutes').textContent=Math.floor(d%3600000/60000);document.getElementById('seconds').textContent=Math.floor(d%60000/1000)}
+tick();setInterval(tick,1000);
+document.getElementById('rsvpForm').addEventListener('submit',function(e){e.preventDefault();const f=new FormData(this);const attendance={'confirmed':'我将出席','plus-one':'我将携伴出席','declined':'很遗憾，我无法出席'}[f.get('attendance')];const msg=`婚礼出席回复\\n姓名：${f.get('guest')}\\n同行人：${f.get('companion')||'无'}\\n回复：${attendance}\\n阿尔滕别克 & 巴克特古丽婚礼 · 2026年11月15日`;const w=window.open('','_blank');if(w){w.document.write('<title>出席回复</title><pre style="white-space:pre-wrap;font:18px sans-serif;padding:24px">'+msg.replace(/&/g,'&amp;').replace(/</g,'&lt;')+'</pre><button onclick="navigator.clipboard.writeText(document.querySelector(\\'pre\\').innerText)">复制回复</button>')}else alert(msg)});
+</script>
+</body>
+</html>
