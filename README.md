@@ -1,0 +1,1 @@
+# Altynbek-Baktygul.github.io
